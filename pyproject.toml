@@ -14,7 +14,7 @@ keywords = ["data-engineering", "cdc", "scd2", "data-contracts", "sqlite"]
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["ruff==0.14.4", "bandit==1.8.6", "coverage==7.10.6"]
+dev = ["ruff==0.17.3", "bandit==1.8.6", "coverage==7.10.6"]
 
 [project.scripts]
 ledgerflow = "ledgerflow.cli:main"
