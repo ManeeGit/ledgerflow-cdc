@@ -1,0 +1,9 @@
+.git
+.venv
+__pycache__
+*.db*
+.env*
+snapshots
+benchmark-results
+build
+dist

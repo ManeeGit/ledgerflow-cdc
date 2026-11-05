@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.coverage*
+coverage.xml
+htmlcov/
+*.db
+*.db-*
+*.sqlite*
+.env
+.env.*
+!.env.example
+snapshots/
+benchmark-results/

@@ -1,0 +1,7 @@
+{
+  "fields": {
+    "status": {"type": "string", "required": true, "enum": ["pending", "paid", "shipped", "cancelled"]},
+    "amount_cents": {"type": "integer", "required": true, "minimum": 0, "maximum": 100000000},
+    "currency": {"type": "string", "required": true, "enum": ["USD", "EUR", "GBP"]}
+  }
+}
